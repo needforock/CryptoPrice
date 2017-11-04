@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ve.needforock.cryptoprice.MainActivity" >
+    <item android:id="@+id/usd_settings"
+        android:title="USD"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/eur_settings"
+        android:title="EUR"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/clp_settings"
+        android:title="CLP"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
